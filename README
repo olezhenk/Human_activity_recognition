@@ -1,4 +1,4 @@
-Этот код реализует обучение нейросетевой модели для классификации активности человека по сенсорным данным. Он использует библиотеки PyTorch для построения глубокой сети, pandas для работы с CSV-файлами и argparse для настройки параметров через командную строку. Программа загружает обучающие и тестовые данные, строит многослойный перцептрон с регуляризацией (batch normalization и dropout) и сохраняет предсказания в файл для дальнейшего использования.
+This code implements training a neural network model for classifying human activity from sensory data. It uses the PyTorch library to build the deep network, pandas to work with CSV files, and argparse to configure parameters via the command line. The program loads training and test data, builds a multilayer perceptron with regularization (batch normalization and dropout), and saves the predictions to a file for later use.
 
-Обучающие данные с признаками и метками классов загружаются из CSV-файла 'trainYX.csv', тестовые данные без меток — из 'testX.csv', а результаты предсказаний сохраняются в файл "HAR_baseline.csv"
-HAR
+Training data with features and class labels is loaded from the CSV file 'trainYX.csv', test data without labels is loaded from 'testX.csv', and the prediction results are saved to the file "HAR_baseline.csv."
+
